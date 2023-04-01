@@ -762,8 +762,8 @@ li{
   gap: 2rem;
 }
 .title > img{
-    width: 200px;
-    margin-bottom: 20px;
+    width: 250px;
+    margin-bottom: 10px;
 }
 @media screen and (min-width: 960px) {
 .textbook{
