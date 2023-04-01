@@ -1146,7 +1146,7 @@ iframe{
   min-height: 300px;
 }
 .m-item .heading3{
-  background: none!important;
+  /* background: none!important; */
   border: none;
   font-size: 24px;
 }
