@@ -126,7 +126,7 @@
   content: "112地理教材簡介本";
 }
 .society .textbook:nth-child(4)::before{
-  content: "112e公民教材簡介本";
+  content: "112公民教材簡介本";
 }
 .society .s-label.active,
 .society .s-label:hover{
@@ -770,7 +770,7 @@ li{
   max-width: calc(100vw - 300px);
   gap: 50px;
   margin-top: 60px;
-  padding: 10px 100px 0;
+  /* padding: 10px 100px 0;  */
   position: relative;
 }
 }
@@ -934,7 +934,7 @@ li{
   transition: all .7s;
 }
 .active + .content{
-  max-height: 4000px;
+  max-height: 6000px;
 }
 .r-item .content .flex:not(.flex-col-2) > img{
   width: 90%;
