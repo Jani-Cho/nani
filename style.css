@@ -81,6 +81,9 @@
 .english .textbook::before{
   content: "112英語教材簡介本";
 }
+.english .textbook:nth-child(2)::before{
+  content: "英語編修簡介本";
+}
 .science [class$="-item"] .heading3,
 .science .t-item::after,
 .science .s-button,
@@ -95,11 +98,23 @@
 .science .textbook::after{
   background-image: url('./src/textbook/textbook-bg-sci.png');
 }
-.science .textbook:nth-child(2)::before{
+.science .textbook:nth-child(1)::before{
   content: "112生物教材簡介本";
 }
-.science .textbook:nth-child(3):before{
+.science .textbook:nth-child(2):before{
   content: "112理化教材簡介本";
+}
+.science .textbook:nth-child(3)::before{
+  content: "生物特色精華本(教材篇)";
+}
+.science .textbook:nth-child(4):before{
+  content: "生物特色精華本(素養篇)";
+}
+.science .textbook:nth-child(5)::before{
+  content: "理地特色精華本(教材篇)";
+}
+.science .textbook:nth-child(6):before{
+  content: "理地特色精華本(素養篇)";
 }
 .science .s-label.active,
 .science .s-label:hover{
@@ -119,14 +134,23 @@
 .society .textbook::after{
   background-image: url('./src/textbook/textbook-bg-soc.png');
 }
-.society .textbook:nth-child(2)::before{
+.society .textbook:nth-child(1)::before{
   content: "112歷史教材簡介本";
+}
+.society .textbook:nth-child(2)::before{
+  content: "歷史教材亮點特色本";
 }
 .society .textbook:nth-child(3)::before{
   content: "112地理教材簡介本";
 }
 .society .textbook:nth-child(4)::before{
+  content: "地理教材亮點特色本";
+}
+.society .textbook:nth-child(5)::before{
   content: "112公民教材簡介本";
+}
+.society .textbook:nth-child(6)::before{
+  content: "公民教材亮點特色本";
 }
 .society .s-label.active,
 .society .s-label:hover{
