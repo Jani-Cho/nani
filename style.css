@@ -960,6 +960,7 @@ li{
 .active + .content{
   max-height: 6000px;
 }
+.r-item .content .flex iframe,
 .r-item .content .flex:not(.flex-col-2) > img{
   width: 90%;
 }
@@ -1190,6 +1191,7 @@ iframe{
 }
 @media screen and (max-width: 768px) {
   .m-item .content div,
+  .r-item .content div,
   .f-item .content div{
     flex-direction: column;
   }
